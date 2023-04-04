@@ -4,8 +4,9 @@ variable "input" {
 
 resource "random_shuffle" "test" {
   input = var.input
+  result_count = 1
 }
 
 output "choice" {
-  value = random_shuffle.test.id
+  value = random_shuffle.test.result
 }
