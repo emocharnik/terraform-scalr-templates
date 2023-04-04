@@ -6,7 +6,7 @@ resource "random_shuffle" "test" {
   input = var.input
   result_count = 1
   keepers = {
-    "input": join(',', var.input)
+    "input": join(",", var.input)
   }
 }
 
