@@ -7,5 +7,5 @@ resource "random_shuffle" "test" {
 }
 
 output "choice" {
-  value = random_shuffle.test.result
+  value = random_shuffle.test.id
 }
