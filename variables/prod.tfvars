@@ -1,1 +1,1 @@
-input = ["prod", "production"]
+input = ["prod", "production", "ha-prod"]
