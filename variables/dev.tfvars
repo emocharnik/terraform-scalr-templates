@@ -1,1 +1,1 @@
-input = ["dev", "development"]
+input = ["dev", "development", "ha-dev"]
