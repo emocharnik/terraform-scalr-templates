@@ -35,6 +35,8 @@ resource "scalr_workspace" "dev" {
       branch              = "main"
       trigger_prefixes    = ["app", "variables/dev"]
   }
+
+  var_files = ["variables/dev/inputs.tfvars"]
 }
 
 resource "scalr_workspace" "prod" {
@@ -49,4 +51,6 @@ resource "scalr_workspace" "prod" {
       branch              = "main"
       trigger_prefixes    = ["app", "variables/prod"]
   }
+
+  var_files = ["variables/prod/inputs.tfvars"]
 }
