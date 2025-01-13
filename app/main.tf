@@ -44,3 +44,16 @@ The clock's run out, time's up, over – blaow!
 Snap back to reality, ohh – there goes gravity
 EOT
 }
+
+output "simple" {
+  value = "One shot!"
+}
+
+output "sensitive" {
+  sensitive = true
+  value = "not your fucking business!"
+}
+
+output "bool" {
+  value = true
+}
