@@ -30,3 +30,17 @@ output "complex" {
     ]
   }
 }
+
+output "multi" {
+  value = <<EOT
+His palms are sweaty, knees weak, arms are heavy
+There's vomit on his sweater already, mom's spaghetti
+He's nervous, but on the surface he looks calm and ready
+To drops bombs, but he keeps on forgetting
+What he wrote down, the whole crowd goes so loud
+He opens his mouth but the words won't come out
+He's chokin, how? Everybody's jokin now
+The clock's run out, time's up, over – blaow!
+Snap back to reality, ohh – there goes gravity
+EOT
+}
