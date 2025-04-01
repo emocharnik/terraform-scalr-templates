@@ -1,5 +1,6 @@
 variable "input" {
   type = list(string)
+  default = ["one", "two", "three"]
 }
 
 resource "random_shuffle" "test" {
